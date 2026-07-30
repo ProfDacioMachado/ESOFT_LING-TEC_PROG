@@ -4,6 +4,9 @@ Dedicade repository for materials of the discipline of LINGUAGEM E TÉCNICAS DE 
 # Repositório da Disciplina: Linguagem e Técnicas de Programação
 Este repositório concentra a documentação oficial, material de apoio, exemplos práticos, listas de exercícios e diretrizes da disciplina de Linguagem e Técnicas de Programação. 
 
+#Link de Envio do Repositório de Atividades:
+https://docs.google.com/forms/d/e/1FAIpQLSeIoqq1cmjkSTSrUDNAk9Q-HNSEWHYjpBPYz1CVzYY6mr5ykw/viewform
+
 ## 1. Informações Gerais
 - **Curso:** Engenharia de Software - Bacharelado (ESOFT) / Analise e Desenvolvimeto de Sistemas (ADSIS)
 - **Período:** 2026/2
