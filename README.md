@@ -7,7 +7,7 @@ Este repositório concentra a documentação oficial, material de apoio, exemplo
 # Link de Envio do Repositório de Atividades:
 https://docs.google.com/forms/d/e/1FAIpQLSeIoqq1cmjkSTSrUDNAk9Q-HNSEWHYjpBPYz1CVzYY6mr5ykw/viewform
 
-# Link de Envio do Repositório de Atividades:
+# Link de Envio do Repositório do TRABALHO:
 https://forms.gle/ExWhnJYmZjc8UM1N7
 
 
