@@ -1,9 +1,8 @@
 
 
 Este documento orienta a entrega da documentação inicial do projeto (valendo 3,0 pontos). Vocês devem utilizar um arquivo `.md` (Markdown) no repositório do GitHub (recomendamos nomeá-lo como `README.md` ou `DOCUMENTACAO.md`) para descrever o sistema a ser construído.
-
-Abaixo, apresentamos um modelo de como esse documento deve ser estruturado.
-
+ Um modelo de como esse documento deve ser estruturado.
+A primeira entrega tambem deve conter um código em C que coresponda as especificações do sistema, com os conteúdos já vistos até a data de entrega. (*Entrada; Saida; Condicional; Laço*)
 ---
 ---
 
@@ -37,10 +36,13 @@ O foco principal é resolver a problemática de controle manual de empréstimos,
 ---
 
 ## 3. Fluxograma da Lógica do Sistema
-*Insira a representação gráfica do funcionamento do seu código. Em Markdown, você pode inserir imagens da seguinte forma:*
-
+*Insira a representação gráfica do funcionamento do seu código.* 
+**Em Markdown, você pode inserir imagens da seguinte forma:**
+```Markdonw
+// Estrutura de um link em .md
 ![Fluxograma Principal](link_para_a_imagem_no_seu_repositorio.png)
-
+'''
+![Fluxograma Principal](link_para_a_imagem_no_seu_repositorio.png)
 *(Vocês podem utilizar ferramentas gratuitas como Draw.io, Lucidchart ou Miro para desenhar o fluxograma, exportar como PNG e fazer o upload na pasta do projeto no GitHub).*
 
 ---
