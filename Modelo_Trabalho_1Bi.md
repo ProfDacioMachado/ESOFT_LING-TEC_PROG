@@ -1,4 +1,4 @@
-md_example_content = """# Modelo de Entregas do Primeiro Bimestre
+
 
 Este documento orienta a entrega da documentação inicial do projeto (valendo 3,0 pontos). Vocês devem utilizar um arquivo `.md` (Markdown) no repositório do GitHub (recomendamos nomeá-lo como `README.md` ou `DOCUMENTACAO.md`) para descrever o sistema a ser construído.
 
