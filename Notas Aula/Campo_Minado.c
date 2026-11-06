@@ -29,8 +29,7 @@ void inicializaCampo(){
             if(rand()%10 == 0 && cont < 10) {
                 campo[i][j] = 0;
                 cont++; 
-            }
-            else campo[i][j] = 9;
+            }else campo[i][j] = 9;
         }
     }
 }
@@ -50,15 +49,17 @@ int jogada (char Seletor){
     return valor; 
 }    
 
-void verifica_casas(int linha, int coluna){
-    int distanciaI, i;
-    int distanciaJ, j;
-     // for(incialização; verifcação; incremento;) 
-     for(i= 0; i<10; i++){
-        for(j=0; j<10; j++){
-            if (campo[i][j] == 0)
-        }
-     }
+void abre_casa(int linha, int coluna){
+    int i, iM, iP, j, jM, jP;
+    for( iM = iP = linha; iM > 1 || iP < 10; iM--,iP++ ){
+        for( jM = jP = coluna; jM > 1 || jP < 10; jM--,jP++ ){
+            if(campo[iM][jM] == 0)
+                campo[iM+1][jM+1] +=1;
+            if(campo[iP][jP] == 0)
+                campo[iP-1][jP-1] +=1; 
+        }  
+    printf(" |\n|");
+    }
 }
 
 int verifica_jogada(int linha, int coluna){
@@ -67,12 +68,10 @@ int verifica_jogada(int linha, int coluna){
         printf("MORREU");
         return 0; 
     }else{
-        verifica_casas(linha, coluna); 
+        abre_casa(linha, coluna);
         return 1; 
     }
-    
 }
-
 
 int main(){
     
