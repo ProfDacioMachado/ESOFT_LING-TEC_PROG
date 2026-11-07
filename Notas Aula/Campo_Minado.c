@@ -4,18 +4,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-int campo[10][10]; // variavel global que define a matriz do campo. 
+#define tam  10
+int campo[tam][tam]; // variavel global que define a matriz do campo. 
 
 void atualizaTela(){
     int i,j; 
     printf("\t--- CAMPO MINADO ---\n\t");
-    for(i= 0; i < 10; i++){
-        for(j=0; j<10; j++){
-            if (campo[i][j] == 0 || campo[i][j] == 9)printf("|_");
-            if (campo[i][j] == 11) printf("|-");
-            if (campo[i][j] == 1 ) printf("|%d",campo[i][j]);
-            // printf("|%d",campo[i][j]);
+    for(i= 0; i < tam; i++){
+        for(j=0; j<tam; j++){
+            if (campo[i][j] == -1 || campo[i][j] == )printf("|_");
+            if (campo[i][j] == 9) printf("|-");
+            if (campo[i][j] == 11 ) printf("|%d",campo[i][j]);
+            //printf("|%d",campo[i][j]);
         }
         printf("|\n\t");
     }
@@ -25,12 +25,30 @@ void atualizaTela(){
 void inicializaCampo(){
     int cont, i, j; 
     for(i= 0, cont = 0; i < 10; i++){
-        for(j=0; j<10; j++){
+        for(j=0; j<tam; j++){
             // se aleatoriamente cair bomba, coloque a casa como bomba
             if(rand()%10 == 0 && cont < 10) {
-                campo[i][j] = 0;
+                campo[i][j] = -1;
                 cont++; 
-            }else campo[i][j] = 9;
+            }else campo[i][j] = 0;
+        }
+    }
+}
+
+void pesaCampo(){
+    int i, j;
+    for(i= 0; i < tam; i++){
+        for(j=0; j<tam; j++){
+            if(campo[i][j] == -1) {
+                campo[i+1][j+1]++;
+                campo[i][j+1]++;
+                campo[i+1][j]++;
+
+                campo[i-1][j-1]++;
+                campo[i][j-1]++;
+                campo[i-1][j]++;
+                
+            }
         }
     }
 }
@@ -51,11 +69,14 @@ int jogada (char Seletor){
 }    
 
 void abre_casa(int linha, int coluna){
-    int i, iM, iP, j, jM, jP;
-    int q1, q2;
-    for( iM = iP = linha; iM > 1 || iP < 10; iM--,iP++ ){
-        for( jM = jP = coluna; jM > 1 || jP < 10; jM--,jP++ ){
-            
+    int i, j, k, q;
+    for(i= linha; i<tam; i++){
+        for(j = coluna; j < tam && (campo[i][j]!0 || ; j++){
+            campo[i][j]= 9;
+             
+        }
+        for(k = coluna, q = 1; k > -1 && q; k--){
+               
         }
     }
 }
@@ -77,6 +98,7 @@ int main(){
     srand(time(NULL));
     
     inicializaCampo();
+    pesaCampo();
    do{ 
     atualizaTela();
    }while(verifica_jogada(jogada('l'), jogada('c')));
