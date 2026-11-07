@@ -13,8 +13,9 @@ void atualizaTela(){
     for(i= 0; i < 10; i++){
         for(j=0; j<10; j++){
             if (campo[i][j] == 0 || campo[i][j] == 9)printf("|_");
-            else
-            printf("|%d",campo[i][j]);
+            if (campo[i][j] == 11) printf("|-");
+            if (campo[i][j] == 1 ) printf("|%d",campo[i][j]);
+            // printf("|%d",campo[i][j]);
         }
         printf("|\n\t");
     }
@@ -51,14 +52,11 @@ int jogada (char Seletor){
 
 void abre_casa(int linha, int coluna){
     int i, iM, iP, j, jM, jP;
+    int q1, q2;
     for( iM = iP = linha; iM > 1 || iP < 10; iM--,iP++ ){
         for( jM = jP = coluna; jM > 1 || jP < 10; jM--,jP++ ){
-            if(campo[iM][jM] == 0)
-                campo[iM+1][jM+1] +=1;
-            if(campo[iP][jP] == 0)
-                campo[iP-1][jP-1] +=1; 
-        }  
-    printf(" |\n|");
+            
+        }
     }
 }
 
