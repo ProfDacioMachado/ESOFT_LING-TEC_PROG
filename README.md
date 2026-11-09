@@ -4,6 +4,17 @@ Dedicade repository for materials of the discipline of LINGUAGEM E TÉCNICAS DE 
 # Repositório da Disciplina: Linguagem e Técnicas de Programação
 Este repositório concentra a documentação oficial, material de apoio, exemplos práticos, listas de exercícios e diretrizes da disciplina de Linguagem e Técnicas de Programação. 
 
+## AVALIAÇÕES  2˚ BIMESTRE  (Datas)
+Data das avaliações do segundo bimestre 
+| Turma | Tópico | Descrição |
+| :---: | :--- | :--- |
+| **ESOFT M A** | **Apresentação de Trabalho** | *a definir* | *26/11* (extra)|
+| **ESOFT M A** | **Prova Prática** | *a definir* | *a definir*|
+| **ESOFT M B** | **Apresentação de Trabalho** | *17/11* | *26/11* (extra)|
+| **ESOFT M A** | **Prova Prática** | *a 16/11* | *-*|
+| **ADSIS N A** | **Apresentação de Trabalho** | *a definir* | *a definir*|
+| **ADSIS n A** | **Apresentação de Trabalho** | *a definir* | *a definir*|
+
 # Link de Envio do Repositório de Atividades:
 https://docs.google.com/forms/d/e/1FAIpQLSeIoqq1cmjkSTSrUDNAk9Q-HNSEWHYjpBPYz1CVzYY6mr5ykw/viewform
 
