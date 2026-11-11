@@ -8,8 +8,8 @@ Este repositório concentra a documentação oficial, material de apoio, exemplo
 Data das avaliações do segundo bimestre 
 | Turma | Atividade | Data 2 | Data 2| 
 | :---: | :--- | :--- | :--- |
-| **ESOFT M A** | **Apresentação de Trabalho** | *a definir* | *26/11* (extra)|
-| **ESOFT M A** | **Prova Prática** | *a definir* | *a definir*|
+| **ESOFT M A** | **Apresentação de Trabalho** | *19/11* | *26/11* (extra)|
+| **ESOFT M A** | **Prova Prática** | *a definir* | *18/11*|
 | **ESOFT M B** | **Apresentação de Trabalho** | *17/11* | *26/11* (extra)|
 | **ESOFT M B** | **Prova Prática** | *a 16/11* | *-*|
 | **ADSIS N A** | **Apresentação de Trabalho** | *16/11* | *17/11*|
